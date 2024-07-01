@@ -11,6 +11,13 @@
     overflow-y: auto;
 }
 
+.container{
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+    height: 500px;
+}
+
 .content{
     background-color: white;
     width: 50%;
@@ -36,6 +43,7 @@
     margin: 5px;
     height: 50%;
     align-self: center;
+    background-color: green;
 }
 
 .addtocart span{
@@ -44,46 +52,53 @@
     
 }
 
-.container{
-    display: flex;
-    margin: 100px;
-    justify-content: center;
-    height: 500px;
-}
-
-
-
 .content h4{
     margin-top: 10px;
     margin-bottom: 10px;
+    background-color: white;
 }
 .content h2{
     font-size: 30px;
+    background-color: white;
 }
 
 .content p{
+    background-color: white;
     padding-top: 25px;
     font-size: 25px;
 }
 #price_details{
+    background-color: white;
     padding-top: 15px;
 }
 #price{
+    background-color: white;
     color: green;
     font-weight: bold;
     font-size:30px ;
 }
-#cancel_price{
-    padding-top: ;
+#cancel_price1{
+    background-color: white;
     margin-left: 15px;
     font-weight: bold;
     font-size: large;
 }
 
+#cancel_price2{
+    background-color: white;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+
 .mug_image{
     border-top-left-radius: 30px;
     border-bottom-left-radius: 15px;
     width: 50%;
+    padding: 0;
+    margin: 0;
     position: relative;
     overflow: hidden;
     
